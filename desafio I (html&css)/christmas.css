@@ -34,7 +34,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 24px;
+    gap: 48px;
 
 }
 
@@ -55,7 +55,8 @@ body {
     gap: 32px;
     width: 372px;
     height: 288px;
-    margin-top: 185px;
+    margin-top: 113px;
+    margin-left: 218px;
     left: 218px;
 
 }
@@ -63,9 +64,57 @@ body {
 .img-section1{
     width: 450px;
     height: 450px;
+    margin-right: 170px;
 }
 
 .titulo{
     font-weight: 600;
     width: 235px;
+}
+
+.paragrafo{
+    font-weight: 400;
+    color: #5D5656;
+}
+
+.botao{
+    border-radius: 64px;
+    background: var(--first-color, #DC3845);
+    border: none;
+    padding: 16px 32px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 16px;
+    width: 215px;
+    height: 56px;
+}
+.titulo2{
+    color: #282525;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section2{
+    margin-top: 25px;
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 80px auto 80px; 
+    column-gap: 40px;
+    row-gap: 40px;
+    justify-content: center;
+    margin-top: 33px;
+}
+
+.bloco{
+    border-radius: 12px;
+    width: 200px;
+    height: 247px;
+    background: var(--container-color, #FFF);
+    box-shadow: 0px 4px 24px 0px rgba(48, 29, 30, 0.10);
 }
