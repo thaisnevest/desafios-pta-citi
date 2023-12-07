@@ -57,7 +57,6 @@ body {
     height: 288px;
     margin-top: 113px;
     margin-left: 218px;
-    left: 218px;
 
 }
 
@@ -95,26 +94,55 @@ body {
     font-weight: 600;
     font-size: 24px;
     text-align: center;
+    margin-bottom: 33px;
 }
 
 .section2{
     margin-top: 25px;
+    margin-bottom: 72px;
 }
 
 .produtos{
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 80px auto 80px; 
-    column-gap: 40px;
-    row-gap: 40px;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 247px);
+    grid-gap: 40px;
     justify-content: center;
-    margin-top: 33px;
+    align-items: center;
 }
 
 .bloco{
     border-radius: 12px;
+    margin-top: 33px;
     width: 200px;
     height: 247px;
     background: var(--container-color, #FFF);
     box-shadow: 0px 4px 24px 0px rgba(48, 29, 30, 0.10);
+}
+
+.nome-produto{
+    color: var(--text-color, #5D5656);
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.image{
+    width: 120px;
+    height: 120px;
+    margin-left: 40px;
+}
+
+.coracao{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.preco{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 24px;
 }
