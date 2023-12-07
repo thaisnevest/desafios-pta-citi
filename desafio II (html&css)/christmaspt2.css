@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    color:#282525;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 48px;
+
+}
+
+.home{
+    color: #DC3845;
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 372px;
+    height: 288px;
+    margin-top: 113px;
+    margin-left: 218px;
+
+}
+
+.img-section1{
+    width: 450px;
+    height: 450px;
+    margin-right: 170px;
+}
+
+.titulo{
+    font-weight: 600;
+    width: 235px;
+}
+
+.paragrafo{
+    font-weight: 400;
+    color: #5D5656;
+}
+
+.botao{
+    border-radius: 64px;
+    background: var(--first-color, #DC3845);
+    border: none;
+    padding: 16px 32px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 16px;
+    width: 215px;
+    height: 56px;
+}
+.titulo2{
+    color: #282525;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.section4{
+    margin-top: 25px;
+    margin-bottom: 72px;
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 247px);
+    grid-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco{
+    border-radius: 12px;
+    margin-top: 33px;
+    width: 200px;
+    height: 247px;
+    background: var(--container-color, #FFF);
+    box-shadow: 0px 4px 24px 0px rgba(48, 29, 30, 0.10);
+}
+
+.nome-produto{
+    color: var(--text-color, #5D5656);
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.image{
+    width: 120px;
+    height: 120px;
+    margin-left: 40px;
+}
+
+.coracao{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.preco{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 24px;
+}
