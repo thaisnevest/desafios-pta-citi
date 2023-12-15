@@ -388,3 +388,43 @@ body {
     outline: none;
 }
 
+/* footer */
+
+footer{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-div{ 
+    display: flex;
+    justify-content: space-around;
+    gap: 147px;
+}
+
+.footer-h2{
+    color: #282525;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer1{
+   display: flex;
+   flex-direction: column;
+}
+
+.title-footer1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-rights{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 48px;
+}
